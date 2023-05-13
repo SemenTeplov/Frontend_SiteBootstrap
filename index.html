@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" href="src/css/style.css">
+        <title>Squadfree</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <section class="nav">
+                <div class="nav__inner">
+                    <h3 class="nav__labe">SQUADFREE</h3>
+
+                    <ul class="nav__menu">
+                        <li class="li_top"><a href="#home_id">Home</a></li>
+                        <li class="li_top"><a href="#about_id">About Us</a></li>
+                        <li class="li_top"><a href="#services_id">Services</a></li>
+                        <li class="li_top"><a href="#prtfolio_id">Prtfolio</a></li>
+                        <li class="li_top"><a href="#team_id">Team</a></li>
+                        <li class="li_top click_DD"><a href="#">Drop Down</a>
+                            <div class="menu">
+                                <div class="menu__DD action_DD">
+                                    <ul>
+                                        <li><a href="">Drop Down1</a></li>
+                                        <li class="click_DDD"><a href="">Deep Drop Down</a>
+                                            <div class="menu__DDD action_DDD">
+                                                <a href="#">Deep Drop Down</a>
+                                                <a href="#">Deep Drop Down</a>
+                                                <a href="#">Deep Drop Down</a>
+                                                <a href="#">Deep Drop Down</a>
+                                                <a href="#">Deep Drop Down</a>
+                                            </div>
+                                        </li>
+                                        <li><a href="">Drop Down2</a></li>
+                                        <li><a href="">Drop Down3</a></li>
+                                        <li><a href="">Drop Down4</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li_top click_MM"><a href="#">Mega Menu</a>                           
+                            <div class="mega_menu action_mega_menu">
+                                <div class="mega_menu__column">
+                                    <h4>Column 1</h4>
+                                    <a href="#">Column 1 Link 1</a>
+                                    <a href="#">Column 1 Link 2</a>
+                                    <a href="#">Column 1 Link 3</a>
+                                </div>
+                                <div class="mega_menu__column">
+                                    <h4>Column 2</h4>
+                                    <a href="#">Column 2 Link 1</a>
+                                    <a href="#">Column 2 Link 2</a>
+                                    <a href="#">Column 2 Link 3</a>
+                                </div>
+                                <div class="mega_menu__column">
+                                    <h4>Column 3</h4>
+                                    <a href="#">Column 3 Link 1</a>
+                                    <a href="#">Column 3 Link 2</a>
+                                    <a href="#">Column 3 Link 3</a>
+                                </div>
+                                <div class="mega_menu__column">
+                                    <h4>Column 4</h4>
+                                    <a href="#">Column 4 Link 1</a>
+                                    <a href="#">Column 4 Link 2</a>
+                                    <a href="#">Column 4 Link 3</a>
+                                </div>
+                                <div class="mega_menu__column">
+                                    <h4>Column 5</h4>
+                                    <a href="#">Column 5 Link 1</a>
+                                    <a href="#">Column 5 Link 2</a>
+                                    <a href="#">Column 5 Link 3</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li_top"><a href="#contact_id">Contact</a></li>
+                    </ul>
+
+                    <div class="bar action_bar" onclick="closeOrOpen(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+
+                    <ul class="nav__menu_min" id="menu-min">
+                        <li class="li_top"><a href="#home_id">Home</a></li>
+                        <li class="li_top"><a href="#about_id">About Us</a></li>
+                        <li class="li_top"><a href="#services_id">Services</a></li>
+                        <li class="li_top"><a href="#prtfolio_id">Prtfolio</a></li>
+                        <li class="li_top"><a href="#team_id">Team</a></li>
+                        <li class="li_top click_DD"><a href="#">Drop Down</a>
+                            <div class="menu">
+                                <div class="menu__DD action_DD">
+                                    <ul>
+                                        <li><a href="">Drop Down1</a></li>
+                                        <li class="click_DDD"><a href="">Deep Drop Down</a>
+                                            <div class="menu__DDD action_DDD">
+                                                <a href="#">Deep Drop Down</a>
+                                                <a href="#">Deep Drop Down</a>
+                                                <a href="#">Deep Drop Down</a>
+                                                <a href="#">Deep Drop Down</a>
+                                                <a href="#">Deep Drop Down</a>
+                                            </div>
+                                        </li>
+                                        <li><a href="">Drop Down2</a></li>
+                                        <li><a href="">Drop Down3</a></li>
+                                        <li><a href="">Drop Down4</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li_top click_MM"><a href="#">Mega Menu</a>                           
+                            <div class="mega_menu action_mega_menu">
+                                <div class="mega_menu__column">
+                                    <h4>Column 1</h4>
+                                    <a href="#">Column 1 Link 1</a>
+                                    <a href="#">Column 1 Link 2</a>
+                                    <a href="#">Column 1 Link 3</a>
+                                </div>
+                                <div class="mega_menu__column">
+                                    <h4>Column 2</h4>
+                                    <a href="#">Column 2 Link 1</a>
+                                    <a href="#">Column 2 Link 2</a>
+                                    <a href="#">Column 2 Link 3</a>
+                                </div>
+                                <div class="mega_menu__column">
+                                    <h4>Column 3</h4>
+                                    <a href="#">Column 3 Link 1</a>
+                                    <a href="#">Column 3 Link 2</a>
+                                    <a href="#">Column 3 Link 3</a>
+                                </div>
+                                <div class="mega_menu__column">
+                                    <h4>Column 4</h4>
+                                    <a href="#">Column 4 Link 1</a>
+                                    <a href="#">Column 4 Link 2</a>
+                                    <a href="#">Column 4 Link 3</a>
+                                </div>
+                                <div class="mega_menu__column">
+                                    <h4>Column 5</h4>
+                                    <a href="#">Column 5 Link 1</a>
+                                    <a href="#">Column 5 Link 2</a>
+                                    <a href="#">Column 5 Link 3</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li_top"><a href="#contact_id">Contact</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="home" id="home_id">
+                <div class="home__shading">
+                    <div class="home__inner">
+                        <h1 class="home__title">WELCOME TO SQUAD</h1>
+                        <p class="home__text">WE ARE TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP</p>
+                        <a href="#about_id"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about" id="about_id">
+                <div class="about__color">
+                    <div class="about__inner">
+                        <div class="about__main_section">
+                            <h2 class="about__main_section__title">Voluptatem dignissimos provident quasi</h2>
+                            <p class="about__main_section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                            <button class="about__main_section__button">About Us</button>
+                        </div>
+
+                        <div class="about__box">
+                            <div class="about__box__top">
+                                <div class="about__section">
+                                    <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                    <h3 class="about__section__title">Corporis voluptates sit</h3>
+                                    <p class="about__section__text">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                </div>
+
+                                <div class="about__section">
+                                    <i class="fa fa-cube" aria-hidden="true"></i>
+                                    <h3 class="about__section__title">Ullamco laboris nisi</h3>
+                                    <p class="about__section__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                </div>
+                            </div>
+
+                            <div class="about__box__botton">
+                                <div class="about__section">
+                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                    <h3 class="about__section__title">Labore consequatur</h3>
+                                    <p class="about__section__text">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                </div>
+
+                                <div class="about__section">
+                                    <i class="fa fa-shield" aria-hidden="true"></i>
+                                    <h3 class="about__section__title">Beatae veritatis</h3>
+                                    <p class="about__section__text">Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="services" id="services_id">
+                <div class="services__inner">
+                    <h2 class="services__title">Services</h2>
+                    <p class="services__text">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+                    <div class="services__cards">
+                        <div class="services__cards__card">
+                            <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                            <h3 class="services__cards__card__title">Lorem Ipsum</h3>
+                            <p class="services__cards__card__text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        </div>
+
+                        <div class="services__cards__card">
+                            <i class="fa fa-file-text" aria-hidden="true"></i>
+                            <h3 class="services__cards__card__title">Sed ut perspiciatis</h3>
+                            <p class="services__cards__card__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                        </div>
+
+                        <div class="services__cards__card">
+                            <i class="fa fa-tachometer" aria-hidden="true"></i>
+                            <h3 class="services__cards__card__title"> Magni Dolores</h3>
+                            <p class="services__cards__card__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                        </div>
+
+                        <div class="services__cards__card">
+                            <i class="fa fa-globe" aria-hidden="true"></i>
+                            <h3 class="services__cards__card__title">Nemo Enim</h3>
+                            <p class="services__cards__card__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="string_statistic">
+                <div class="string_statistic__inner">
+                    <div class="string_statistic__items">
+                        <div class="string_statistic__items__item">
+                            <i class="fa fa-smile-o" aria-hidden="true"></i>
+                            <h2 class="string_statistic__items__item__title">232</h2>
+                            <p class="string_statistic__items__item__text"><span>Happy Clients</span> consequuntur quae</p>
+                        </div>
+
+                        <div class="string_statistic__items__item">
+                            <i class="fa fa-address-book-o" aria-hidden="true"></i>
+                            <h2 class="string_statistic__items__item__title">521</h2>
+                            <p class="string_statistic__items__item__text"><span>Projects</span> adipisci atque cum quia aut</p>
+                        </div>
+
+                        <div class="string_statistic__items__item">
+                            <i class="fa fa-headphones" aria-hidden="true"></i>
+                            <h2 class="string_statistic__items__item__title">1 463</h2>
+                            <p class="string_statistic__items__item__text"><span>Hours Of Support</span> aut commodi quaerat</p>
+                        </div>
+
+                        <div class="string_statistic__items__item">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <h2 class="string_statistic__items__item__title">15</h2>
+                            <p class="string_statistic__items__item__text"><span>Hard Workers</span> rerum asperiores dolor</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="string_call">
+                <div class="string_call__shading">
+                    <div class="string_call__inner">
+                        <h2 class="string_call__title">Call To Action</h2>
+                        <p class="string_call__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button class="string_call__button">CALL TO ACTION</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="portfolio" id="prtfolio_id">
+                <div class="portfolio__inner">
+                    <h2 class="portfolio__title">Portfolio</h2>
+                    <p class="portfolio__text">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+                    <ul class="portfolio__buttons">
+                        <li><a id="all_id" onclick="showCard(1)">ALL</a></li>
+                        <li><a id="app_id" onclick="showCard(2)">APP</a></li>
+                        <li><a id="card_id" onclick="showCard(3)">CARD</a></li>
+                        <li><a id="web_id" onclick="showCard(4)">WEB</a></li>
+                    </ul>
+
+                    <div class="portfolio__cards" id="all">
+                        <div class="portfolio__cards__group">
+                            <img src="/img/portfolio-1.jpg" alt="photo">
+                            <img src="/img/portfolio-2.jpg" alt="photo">
+                            <img src="/img/portfolio-3.jpg" alt="photo">
+                            <img src="/img/portfolio-4.jpg" alt="photo">
+                            <img src="/img/portfolio-5.jpg" alt="photo">
+                            <img src="/img/portfolio-6.jpg" alt="photo">
+                            <img src="/img/portfolio-7.jpg" alt="photo">
+                            <img src="/img/portfolio-8.jpg" alt="photo">
+                            <img src="/img/portfolio-9.jpg" alt="photo">
+                        </div>
+                    </div>
+
+                    <div class="portfolio__card" id="app">
+                        <div class="portfolio__cards__group">
+                            <img src="/img/portfolio-1.jpg" alt="photo">
+                            <img src="/img/portfolio-3.jpg" alt="photo">
+                            <img src="/img/portfolio-6.jpg" alt="photo">
+                        </div>
+                    </div>
+
+                    <div class="portfolio__cards" id="card">
+                        <div class="portfolio__cards__group">
+                            <img src="/img/portfolio-4.jpg" alt="photo">
+                            <img src="/img/portfolio-7.jpg" alt="photo">
+                            <img src="/img/portfolio-8.jpg" alt="photo">
+                        </div>
+                    </div>
+
+                    <div class="portfolio__cards" id="web">
+                        <div class="portfolio__cards__group">
+                            <img src="/img/portfolio-2.jpg" alt="photo">
+                            <img src="/img/portfolio-5.jpg" alt="photo">
+                            <img src="/img/portfolio-9.jpg" alt="photo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="comment">
+                <div class="comment__inner">
+                    <h2 class="comment__title">Testimonials</h2>
+                    <p class="comment__text">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+                    <div class="comment__slider">
+                        <div class="comment__slider__container_left">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-1.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">Saul Goodman</p>
+                                <p class="comment__slider__prof">Ceo and Founder</p>
+                            </div>
+                        </div>
+
+                        <div class="comment__slider__container_left">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-2.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">Sara Wilsson</p>
+                                <p class="comment__slider__prof">Designer</p>
+                            </div>
+                        </div>
+
+                        <div class="comment__slider__container_left">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-3.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">Jena Karlis</p>
+                                <p class="comment__slider__prof">Store Owner</p>
+                            </div>
+                        </div>
+
+                        <div class="comment__slider__container_left">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-4.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">Matt Brandon</p>
+                                <p class="comment__slider__prof">Freelancer</p>
+                                <div class="comment__slider__tringl"></div>
+                            </div>
+                        </div>
+
+                        <div class="comment__slider__container_left">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-5.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">John Larson</p>
+                                <p class="comment__slider__prof">Entrepreneur</p>
+                             </div>
+                        </div>
+
+
+
+                        <div class="comment__slider__container_middle">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-2.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">Sara Wilsson</p>
+                                <p class="comment__slider__prof">Designer</p>
+                            </div>
+                        </div>
+
+                        <div class="comment__slider__container_middle">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-3.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">Jena Karlis</p>
+                                <p class="comment__slider__prof">Store Owner</p>
+                            </div>
+                        </div>
+
+                        <div class="comment__slider__container_middle">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-4.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">Matt Brandon</p>
+                                <p class="comment__slider__prof">Freelancer</p>
+                                <div class="comment__slider__tringl"></div>
+                            </div>
+                        </div>
+
+                        <div class="comment__slider__container_middle">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-5.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">John Larson</p>
+                                <p class="comment__slider__prof">Entrepreneur</p>
+                             </div>
+                        </div>
+
+                        <div class="comment__slider__container_middle">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-1.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">Saul Goodman</p>
+                                <p class="comment__slider__prof">Ceo and Founder</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="comment__slider__container_right">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-3.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">Jena Karlis</p>
+                                <p class="comment__slider__prof">Store Owner</p>
+                            </div>
+                        </div>
+
+                        <div class="comment__slider__container_right">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-4.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">Matt Brandon</p>
+                                <p class="comment__slider__prof">Freelancer</p>
+                                <div class="comment__slider__tringl"></div>
+                            </div>
+                        </div>
+
+                        <div class="comment__slider__container_right">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-5.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">John Larson</p>
+                                <p class="comment__slider__prof">Entrepreneur</p>
+                             </div>
+                        </div>
+
+                        <div class="comment__slider__container_right">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-1.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">Saul Goodman</p>
+                                <p class="comment__slider__prof">Ceo and Founder</p>
+                            </div>
+                        </div>
+
+                        <div class="comment__slider__container_right">
+                            <div class="comment__slider__block_text">
+                                <p class="comment__slider__text">"Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa."</p>
+                            </div>
+
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                            <div class="comment__slider__block_img">
+                                <img src="/img/testimonials-2.jpg" alt="photo" class="comment__slider__img">
+                                <p class="comment__slider__name">Sara Wilsson</p>
+                                <p class="comment__slider__prof">Designer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="comment__dots">
+                        <span class="comment__dot" onclick="currentSlide(1)"></span>
+                        <span class="comment__dot" onclick="currentSlide(2)"></span>
+                        <span class="comment__dot" onclick="currentSlide(3)"></span>
+                        <span class="comment__dot" onclick="currentSlide(4)"></span>
+                        <span class="comment__dot" onclick="currentSlide(5)"></span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="team" id="team_id">
+                <div class="team__inner">
+                <h2 class="team__title">Team</h2>
+                <p class="team__text">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+                <div class="team__box_cards">
+                    <div class="team__card  action">
+                        <img src="/img/team-1.jpg" alt="photo" class="team__card__img">
+                        <div class="team__card__info">
+                            <p class="team__card__info__name">Walter White</p>
+                            <div class="team__card__info__line"></div>
+                            <p class="team__card__info__prof">Chief Executive Officer</p>
+
+                            <div class="team__card__info__socionetwork">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team__card  action">
+                        <img src="/img/team-2.jpg" alt="photo" class="team__card__img">
+                        <div class="team__card__info">
+                            <p class="team__card__info__name">Sarah Jhonson</p>
+                            <div class="team__card__info__line"></div>
+                            <p class="team__card__info__prof">Product Manager</p>
+
+                            <div class="team__card__info__socionetwork">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team__card  action">
+                        <img src="/img/team-3.jpg" alt="photo" class="team__card__img">
+                        <div class="team__card__info">
+                            <p class="team__card__info__name">William Anderson</p>
+                            <div class="team__card__info__line"></div>
+                            <p class="team__card__info__prof">CTO</p>
+
+                            <div class="team__card__info__socionetwork">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+            <section class="contact" id="contact_id">
+                <div class="contact__inner">
+                    <h2 class="contact__title">Contact</h2>
+                    <p class="contact__text">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+                    <div class="contact__box_contacts">
+                        <div class="contact__box_contacts__box_big">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <h3 class="contact__box_contacts__title">Our Address</h3>
+                            <p class="contact__box_contacts__text">A108 Adam Street, New York, NY 535022</p>
+                        </div>
+
+                        <div class="contact__box_contacts__box_small">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <h3 class="contact__box_contacts__title">Email Us</h3>
+                            <p class="contact__box_contacts__text">contact@example.com</p>
+                        </div>
+
+                        <div class="contact__box_contacts__box_small">
+                            <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                            <h3 class="contact__box_contacts__title">Call Us</h3>
+                            <p class="contact__box_contacts__text">+1 5589 55488 55</p>
+                        </div>
+                    </div>
+
+                    <div class="contact__box_map">
+                        <div class="contact__box_map__map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0"></iframe>
+                        </div>
+
+                        <div class="contact__box_map__contacts">
+                            <input class="contact__box_map__contacts__small" type="text">
+                            <input class="contact__box_map__contacts__small" type="text">
+                            <input class="contact__box_map__contacts__middle" type="text">
+                            <input class="contact__box_map__contacts__big" type="text">
+                            <button class="contact__box_map__contacts__buttons">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="footer">
+                <div class="footer__inner">
+                    <div class="footer__box">
+                        <div class="footer__box__line"></div>
+                        <h2 class="footer__box__title">Squadfree</h2>
+                        <p class="footer__box__text">Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</p>
+                        <p class="footer__box__street">A108 Adam Street</p>
+                        <p class="footer__box__post">NY 535022, USA</p>
+                        <p class="footer__box__phone"><span>Phone:</span> +1 5589 55488 55</p>
+                        <p class="footer__box__email"><span>Email:</span> info@example.com</p>
+                        <div class="footer__box__network">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-skype" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="footer__box_links">
+                        <p class="footer__box_links__title">Useful Links</p>
+                        <ul class="footer__box_links__links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Terms of service</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__box_services">
+                        <p class="footer__box_services__title">Our Services</p>
+                        <ul class="footer__box_services__links">
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Product Management</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Graphic Design</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__box_newsletter">
+                        <p class="footer__box_newsletter__title">Our Newsletter</p>
+                        <p class="footer__box_newsletter__text">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <div class="footer__box_newsletter__subscribe">
+                            <input type="text" class="footer__box_newsletter__subscribe__input">
+                            <button class="footer__box_newsletter__subscribe__button">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__top">
+                    <div class="footer__top__line"></div>
+
+                    <p class="footer__top__text">© Copyright <span>Squadfree</span>. All Rights Reserved</p>
+                    <p class="footer__top__text">Designed by BootstrapMade</p>
+                </div>
+            </section>
+        </div>
+
+        <script>
+            let i;
+            let slideIndex = 1;
+            showSlide(slideIndex);
+
+            function currentSlide(n) {
+                showSlide(slideIndex = n);
+            }
+
+            function showSlide(n) {
+                let slidesLeft = document.getElementsByClassName("comment__slider__container_left");
+                let slidesMiddle = document.getElementsByClassName("comment__slider__container_middle");
+                let slidesRight = document.getElementsByClassName("comment__slider__container_right");
+                let dots = document.getElementsByClassName("comment__dot");
+
+                if (n > slidesLeft.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slidesLeft.length}
+
+                for (i = 0; i < 5; i++) {
+                    slidesLeft[i].style.display = "none";
+                    slidesMiddle[i].style.display = "none";
+                    slidesRight[i].style.display = "none";
+                }
+
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" comment__action", "");
+                }
+
+                slidesLeft[slideIndex - 1].style.display = "block";
+                slidesMiddle[slideIndex - 1].style.display = "block";
+                slidesRight[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " comment__action";
+            }
+        </script>
+        <script>
+            let allCards = document.getElementById("all");
+            let appCards = document.getElementById("app");
+            let cardCards = document.getElementById("card");
+            let webCards = document.getElementById("web");
+
+            function showCard(n) {
+                allCards.style.display = "none";
+                appCards.style.display = "none";
+                cardCards.style.display = "none";
+                webCards.style.display = "none";
+
+                if (n == 1) {
+                    allCards.style.display = "block";
+                }
+                else if (n == 2) {
+                    appCards.style.display = "block";
+                }
+                else if (n == 3) {
+                    cardCards.style.display = "block";
+                }
+                else if (n == 4) {
+                    webCards.style.display = "block";
+                }
+            }
+        </script>
+        <script>
+            let menu = document.getElementById("menu-min");
+
+            function closeOrOpen(x) {
+                x.classList.toggle("change");
+
+                if (menu.style.display == "block") {
+                    menu.style.display = "none";
+                }
+                else {
+                    menu.style.display = "block";
+                }
+            }
+        </script>
+    </body>
+</html>
